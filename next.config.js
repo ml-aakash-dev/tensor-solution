@@ -3,13 +3,6 @@ module.exports = {
   images: {
     domains: ['khansortium.com']
   },
-  async rewrites() {
-    return [
-      {
-        source: '/about',
-        destination: '/',
-      },
-    ]
-  },
+
 
 }
